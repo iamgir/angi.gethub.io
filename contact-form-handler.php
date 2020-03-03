@@ -12,7 +12,7 @@
                         "User Email: $vistor_email.\n".
                             "User Message: $message.\n";
 
-    $to = "angiphotos.info@gmail.com";
+    $mailTo = "angiphotos.info@gmail.com";
 
     $headers = "From: $email_from \r\n";
 
