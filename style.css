@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    margin-top: 25px;
+    font-family: helvetica;
+    
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    position: center;
+    top: 30px;
+    left: 0;
+    right: 0;
+    height: 125px;
+    line-height: 125px;
+    background-color: #B7F5E2;
+    align-items: center;
+    justify-content: center;
+}
+
+header * {
+    display: inline;
+    height: 100px;
+}
+
+header ul {
+    padding: 25px;
+}
+
+header il {
+    margin-left: 10px;
+}
+
+section {
+    height: 90vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+
+.inner-gallery {
+   
+    border: 1px solid black;
+    text-align: center;
+}
+
+#hero .profile-img {
+    width: 800px;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    padding: 50px;
+    
+    background-color: 454545;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+form {
+    margin-top: 5px;
+}
+
+.form-control {
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: orange;
+    font-size: 18px
+
+}
+
+input {
+    height: 45px;
+}
+
+form.submit {
+    background: 000000
+    border-color: transparent;
+    color: #454545;
+    font-size: 20px;
+    font-weight: 2px;
+    height: 50px
+  
+}
+
+form.submit:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+textarea {
+    height: 200px;
+}
+
+
+
+
+
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&auto=format&fit=crop&w=1990&q=80');
+    background-color: #636363   ;
+}
+
+#happy-news {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('insert link here');
+}
+
+#gallery {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('insert link here');
+}
+
+#angi {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('insert link here');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('insert link here');
+}
+
+.photo {
+    height: 450px;
+}
+
+.gallery {
+    float: center;
+    width: 10px;
+    background: #454545;
+}
+
+/* Style you Contact page here */
+
