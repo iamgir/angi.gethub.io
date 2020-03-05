@@ -130,8 +130,8 @@ textarea {
     background-color: #636363   ;
 }
 
-#happy-news {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('insert link here');
+#section-inner {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://c1.wallpaperflare.com/preview/461/775/663/window-house-door-inside.jpg');
 }
 
 #gallery {
