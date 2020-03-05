@@ -126,7 +126,7 @@ textarea {
 
 
 #hero {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&auto=format&fit=crop&w=1990&q=80');
+    background-image: linear-gradient(rgba(255,255,255,0.50),rgba(255,255,255,0.50)), url('https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&auto=format&fit=crop&w=1990&q=80');
     background-color: #636363   ;
 }
 
