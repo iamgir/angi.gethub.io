@@ -2,7 +2,7 @@ body {
     margin: 0;
     margin-top: 25px;
     font-family: helvetica;
-    background-color: #ffffff;
+    background-color: #000;
 }
 
 header {
@@ -118,10 +118,6 @@ form.submit:hover {
 textarea {
     height: 200px;
 }
-
-
-
-
 
 
 #hero {
