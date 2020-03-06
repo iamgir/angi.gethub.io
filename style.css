@@ -49,6 +49,7 @@ section {
 
 #hero .profile-img {
     flex: 50%;
+    width: auto;
     max-width: 500px;
     height: auto;
 }
