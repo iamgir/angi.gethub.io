@@ -2,7 +2,6 @@ body {
     margin: 0;
     margin-top: 25px;
     font-family: helvetica;
-    
     background-color: #ffffff;
 }
 
@@ -127,7 +126,7 @@ textarea {
 
 #hero {
     background-image: linear-gradient(rgba(255,255,255,0.50),rgba(255,255,255,0.50)), url('Add image link here');
-    background-color: #636363;
+    background-color: #ffffff;
 }
 
 #personal {
