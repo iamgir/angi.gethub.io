@@ -163,5 +163,45 @@ textarea {
 
 /* Style you Contact page here */
 
-.indent-1 {float: left;}
-.indent-1 section {width: 50%; float: left;}
+.indent-1 {
+    float: left;
+}
+
+.indent-1 section {
+    width: 50%; float: left;
+}
+
+.box {
+  width: 300px;
+  height: 400px;
+  position: initial;
+}
+
+.red {
+  background-color: aqua;
+}
+
+.blue {
+  background-color: white;
+}
+
+#image {
+  position: absolute;
+  visibility: visible;
+  left: 75px;
+  top: 225px;
+  z-index: 200;
+ 
+}
+
+#text {
+  position: absolute;
+  visibility: visible;
+  left: 475px;
+  top: 275px;
+  z-index: 200;
+}
+
+img {
+  width: 300px;
+}
