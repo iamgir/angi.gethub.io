@@ -33,7 +33,6 @@ header il {
 
 section {
     height: 90vh;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,8 +44,6 @@ section {
 }
 
 .inner-gallery {
-   
-    border: 1px solid black;
     text-align: center;
 }
 
@@ -76,7 +73,7 @@ section h3 {
 
 header a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 
