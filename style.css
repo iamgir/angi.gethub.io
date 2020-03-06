@@ -14,7 +14,7 @@ header {
     right: 0;
     height: 125px;
     line-height: 125px;
-    background-color: #454545;
+    background-color: #EFEFEF;
     align-items: center;
     justify-content: center;
 }
@@ -126,8 +126,8 @@ textarea {
 
 
 #hero {
-    background-image: linear-gradient(rgba(255,255,255,0.50),rgba(255,255,255,0.50)), url('https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&auto=format&fit=crop&w=1990&q=80');
-    background-color: #636363   ;
+    background-image: linear-gradient(rgba(255,255,255,0.50),rgba(255,255,255,0.50)), url('Add image link here');
+    background-color: #636363;
 }
 
 #personal {
@@ -144,6 +144,11 @@ textarea {
 
 #about {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('insert link here');
+}
+
+#happynews {
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url('insert link here');
+    background-color: #EFEFEF;
 }
 
 .photo {
