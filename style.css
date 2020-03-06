@@ -147,7 +147,7 @@ textarea {
 }
 
 #happynews {
-    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url('insert link here');
+    background-image: linear-gradient(rgba(255,255,255,0.50),rgba(255,255,255,0.50)), url('insert link here');
     background-color: #EFEFEF;
 }
 
