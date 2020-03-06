@@ -158,10 +158,9 @@ textarea {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 0 4px;
     justify-content: center;
-    margin-top: 50px;
 }
 
 .column {
