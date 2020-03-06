@@ -163,3 +163,5 @@ textarea {
 
 /* Style you Contact page here */
 
+.indent-1 {float: left;}
+.indent-1 section {width: 50%; float: left;}
