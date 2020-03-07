@@ -1,14 +1,14 @@
 body {
     margin: 0;
     margin-top: 25px;
-    font-family: helvetica;
+    font-family: times;
     background-color: #fff;
 }
 
 header {
     display: flex;
     position: center;
-    top: 30px;
+    top: 25px;
     left: 0;
     right: 0;
     height: 125px;
@@ -47,10 +47,18 @@ section {
     text-align: center;
 }
 
-#hero .profile-img {
-    flex: 75%;
+#hero .profile {
     width: auto;
-    max-width: 500px;
+    max-width: 800px;
+}
+
+.profile-img {
+    width: auto;
+    max-width: ; 
+}
+
+.title {
+    width: 300px;
 }
 
 footer {
@@ -65,72 +73,35 @@ footer {
 }
 
 section h2 {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 section h3 {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 header a {
     text-decoration: none;
     color: #000;
+    font-size: 1.5em;
+    font-family: times;
 }
 
-
-
-form {
-    margin-top: 5px;
-}
-
-.form-control {
-    width: 500px;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    color: orange;
-    font-size: 18px
-
-}
-
-input {
-    height: 45px;
-}
-
-form.submit {
-    background: 000000
-    color: #454545;
-    font-size: 20px;
-    font-weight: 2px;
-    height: 50px
-  
-}
-
-form.submit:hover {
-    background-color: #000;
-    cursor: pointer;
-}
-
-textarea {
-    height: 200px;
-}
-
-
+/* START OF SECTION BACKGROUND IMG CONTROL */
 #hero {
-    background-image: linear-gradient(rgba(255,255,255,0.50),rgba(255,255,255,0.50)), url('Add image link here');
+    background-image: linear-gradient(rgba(255,255,255,0.50),rgba(255,255,255,0.50)), url('https://i.ibb.co/mtbS2dj/DSC-2098.jpg');
     background-color: #ffffff;
 }
 
 #personal {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://c1.wallpaperflare.com/preview/461/775/663/window-house-door-inside.jpg');
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.ibb.co/D9S7xc2/DSC-2735.jpg');
 }
 
 #gallery {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('insert link here');
 }
 
-#angi {
+#invest {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('insert link here');
 }
 
@@ -138,10 +109,7 @@ textarea {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('insert link here');
 }
 
-#happynews {
-    background-image: linear-gradient(rgba(255,255,255,0.50),rgba(255,255,255,0.50)), url('insert link here');
-    background-color: #EFEFEF;
-}
+/* END OF SECTION BACKGROUND CONTROL */
 
 .photo {
     height: 300px;
@@ -153,11 +121,18 @@ textarea {
     background: #454545;
 }
 
-/* GALLERY */
+/* START OF GALLERY */
 
 .row {
     display: flex;
     flex-wrap: nowrap;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.column main {
+    flex: 25%;
+    max-width: 25%;
     padding: 0 4px;
     justify-content: center;
 }
@@ -175,21 +150,10 @@ textarea {
     width: 100%;
 }
 
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-@media screen and (max-width:600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
-
 #nav {
     overflow: hidden;
 }
+
+
+
+/* END OF GALLERY */
