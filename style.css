@@ -1,7 +1,7 @@
 body {
     margin: 0;
     margin-top: 25px;
-    font-family: times;
+    font-family: georgia;
     background-color: #fff;
 }
 
@@ -49,7 +49,7 @@ section {
 
 #hero .profile {
     width: auto;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .profile-img {
@@ -85,6 +85,13 @@ header a {
     color: #000;
     font-size: 1.5em;
     font-family: times;
+}
+
+pre {
+  display: block;
+  font-family: georgia;
+  white-space: pre;
+  margin: 2em 0;
 }
 
 /* START OF SECTION BACKGROUND IMG CONTROL */
@@ -126,11 +133,11 @@ header a {
 .row {
     display: flex;
     flex-wrap: nowrap;
-    padding: 0 4px;
+    padding: 0 8px;
     justify-content: center;
 }
 
-.column main {
+.column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
