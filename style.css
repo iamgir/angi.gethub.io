@@ -40,7 +40,7 @@ section {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;    
+    background-attachment: fixed;
 }
 
 .inner-gallery {
@@ -54,7 +54,7 @@ section {
 
 .profile-img {
     width: auto;
-    max-width: ; 
+    max-width: ;
 }
 
 .title {
@@ -134,13 +134,6 @@ pre {
     display: flex;
     flex-wrap: nowrap;
     padding: 0 8px;
-    justify-content: center;
-}
-
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
     justify-content: center;
 }
 
